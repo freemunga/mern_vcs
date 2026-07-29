@@ -1,0 +1,26 @@
+git config  --global  user.name "username"
+git config --global user.email "mailid"
+
+-----
+for process 
+
+git init
+
+git add .    <.  represents all files>
+
+git status 
+
+git commit -m "commit message"
+
+--  adding  repo url to local repo
+git remote add origin <repo url>
+
+git remote add origin https://github.com/venugopalarumuru1978/mernrepo.git
+
+git pull --rebase  origin master
+
+now push code to github repo
+
+git push -u origin <branch name>
+git push -u origin master
+
